@@ -1,0 +1,45 @@
+h1{
+  text-align: center;
+  margin-top: 100px;
+}
+
+input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  
+  
+}
+
+.sectioncards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5vw;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sectionButton {
+  margin-left: 15vw;
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.sectionButton button {
+  height: 35px;
+  width: 150px;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+.sectionButton button:hover {
+background-color: lightcoral;
+}
